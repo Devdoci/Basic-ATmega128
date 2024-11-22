@@ -16,9 +16,9 @@ CTC 모드는 Normal 모드와 비슷하게 BOTTOM부터 순차적으로 상승�
 
 ## Fast PWM 모드
 
-Fast PWM 모드는 간단하게 설명하면, OCR0에 도달했을 때 OC0이 토글되고, TOP에 도달했을 때 OC0이 다시 토글되는 과정이 반복된다.
+Fast PWM 모드는 간단하게 설명하면, OCR0에 도달했을 때 OC0이 Set되고, TOP에 도달했을 때 OC0이 Clear되는 과정이 반복된다. 직접 그래프로 확인해보면, OCR0과 BOTTOM의 차이가 클 수록 OC0이 Set되어 있는 시간이 더 커진다. (Inverting 모드)
 
-직접 그래프로 확인해보면, OCR0과 BOTTOM의 차이가 클 수록 OC0이 Set되어 있는 시간이 더 커진다. (Inverting 모드)
+Non-inverting 모드는 이와 반대이다.
 
 ![Fast PWM 모드](./fast_pwm_mode_diagram.png)
 [사진 출처](https://maloveforme.tistory.com/256)
