@@ -20,6 +20,8 @@ Fast PWM 모드는 간단하게 설명하면, OCR0에 도달했을 때 OC0이 Se
 
 Non-inverting 모드는 이와 반대이다.
 
+OC0이 Set되어 있는 시간이 OCR0에 따라 달라지는 것을 이용해서 LED의 밝기 조절 등을 구현할 수 있다.
+
 ![Fast PWM 모드](./fast_pwm_mode_diagram.png)
 
 [사진 출처](https://maloveforme.tistory.com/256)
