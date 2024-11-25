@@ -39,7 +39,7 @@ ADC를 허용하기 위한 비트이다. Set일 때 허용된다.
 
 ### ADSC (ADC Start Conversion) - 6 Bit
 
-단일변환모드에서 변환이 시작되면 Set되고, 끝나면 Claer된다.
+단일변환모드에서 변환을 시작하기 위해서 Set하고, 끝내기 위해서 Clear한다.
 
 ### ADFR (ADC Free Running Select) - 5 Bit
 
